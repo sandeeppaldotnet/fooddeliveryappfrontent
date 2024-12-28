@@ -44,4 +44,25 @@ Here’s a screenshot of the foody app:
 
 ![App Screenshot](https://github.com/sandeeppaldotnet/fooddeliveryappfrontent/blob/main/category.png)
 
+![App Screenshot](https://github.com/sandeeppaldotnet/fooddeliveryappfrontent/blob/main/cart.png)
+
+![App Screenshot](https://github.com/sandeeppaldotnet/fooddeliveryappfrontent/blob/main/order.png)
+
+
+![App Screenshot]()
+
+![App Screenshot]()
+
+![App Screenshot]()
+
+
+![App Screenshot]()
+
+![App Screenshot]()
+
+![App Screenshot]()
+
+
+
+
 ## Features
