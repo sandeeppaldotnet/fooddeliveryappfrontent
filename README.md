@@ -36,10 +36,12 @@
 
 ---
 
-## **💻 Getting Started**
+## Screenshot
 
-To get started with foody on your local machine, follow these steps:
+Here’s a screenshot of the foody app:
 
-### 1. Clone the Repository
-```bash
-git clone <repo-url>
+![App Screenshot](https://github.com/sandeeppaldotnet/fooddeliveryappfrontent/blob/main/FOODIFYONLINE.png)
+
+![App Screenshot](https://github.com/sandeeppaldotnet/fooddeliveryappfrontent/blob/main/category.png)
+
+## Features
