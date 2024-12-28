@@ -1,0 +1,85 @@
+.explore-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 95%;
+    margin: auto;
+    background: #000;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top:50px;
+}
+.explore-menu h1{
+    color: #fff;
+    font-weight: 600;
+}
+.explore-menu-text{
+    max-width: 60%;
+    color: #fff;
+}
+.explore-menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: auto; /* Allows horizontal scrolling */
+    -ms-overflow-style: none;  /* Hides scrollbar in IE and Edge */
+    scrollbar-width: none; 
+    
+}
+
+explore-menu-list-item1{
+    border-top-right-radius: 10px;
+  background: #fff;
+  padding: 20px;
+  color: #000;
+  border-top-left-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in WebKit browsers (Chrome, Safari, etc.) */
+  }
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu-list-item img{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+    
+  background: #fff;
+  padding: 20px;
+  color: #000;
+  border-top-left-radius: 10px;
+}
+.explore-menu-list-item img:hover{
+    border: 0px;
+    border-top-right-radius: 10px;
+  
+}
+.explore-menu-list-item .active{
+    border: 4px solid #fff;
+    padding: 2px;
+}
+.explore-menu-list-item p{
+    margin-top: 10px;
+    color: #fff;
+    font-size: max(1.4vw,16px);
+    cursor: pointer;
+}
+.explore-menu hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+}
+@media (max-width:1050px) {
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
+}

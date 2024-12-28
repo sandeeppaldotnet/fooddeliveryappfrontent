@@ -1,0 +1,80 @@
+/* src/AboutUsPage.css */
+.about-us-page {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  ul li strong {
+    color: #fff;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .team-members {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

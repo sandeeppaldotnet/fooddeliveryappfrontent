@@ -1,0 +1,144 @@
+/* src/SupportPage.css */
+.support-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  .faq-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .faq-section li {
+    margin-bottom: 15px;
+  }
+  
+  .faq-section strong {
+    font-weight: bold;
+  }
+  
+  .contact-section p {
+    font-size: 1.1rem;
+  }
+  
+  .contact-section a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Support Form Styling */
+  .support-form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .support-form-section label {
+    font-weight: bold;
+  }
+  
+  .support-form-section input,
+  .support-form-section textarea {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 5px;
+  }
+  
+  .support-form-section button {
+    background-color: rgba(224, 53, 70,0.9);;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    align-self: flex-start; /* Align button to left */
+  }
+  
+  .support-form-section button:hover {
+    background-color: rgba(224, 53, 70,0.9);;
+  }
+  
+  /* Flexbox Layout */
+  .faq-section,
+  .contact-section,
+  .support-form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .faq-section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  
+  .contact-section,
+  .support-form-section {
+    margin-top: 40px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (min-width: 768px) {
+    .faq-section,
+    .contact-section,
+    .support-form-section {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      background: #000;
+  padding: 30px;
+    }
+  
+    .faq-section ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      flex: 2;
+    }
+  
+    .contact-section,
+    .support-form-section {
+      flex: 1;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .faq-section ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .contact-section,
+    .support-form-section {
+      margin-top: 30px;
+      background: #000;
+  padding: 30px;
+    }
+  
+    .support-form-section button {
+      width: 100%;
+    }
+  }
+  

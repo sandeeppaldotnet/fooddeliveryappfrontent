@@ -1,0 +1,76 @@
+.header{
+    height: 45vw;
+    margin: 0px auto;
+    background: url('/headerpng.png') no-repeat;
+    background-size:cover;
+    position: relative;
+    
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+    width: 100%;
+    top: 25%;
+    left: 0vw;
+    animation: fadeIn 3s
+    
+  
+}
+.header-contents h2{
+    font-weight:500;
+    color: white;
+    font-size: max(4.5vw,22px);
+    color:rgba(255, 255, 255, 0.9);
+   text-align: center;}
+.header-contents p{
+    color: white;
+    font-size: 1vw;
+ 
+   
+}
+.header-contents button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background: white;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+}
+@media (max-width:1050px) {
+    .header{
+        height: 38vw;
+    }
+    .header-contents{
+        max-width: 45%;
+    }
+}
+@media(max-width:750px){
+    .header-contents{
+        max-width: 55%;
+    }
+    .header-contents p{
+       display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .blinking-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    animation: blink 3s infinite;
+    animation-delay: 5s;  /* Delay the start of the blinking effect by 3 seconds */
+    display: inline-block;
+  }
